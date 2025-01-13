@@ -1,2 +1,2 @@
-# PythonLearningFromZero
-"Python from Zero to AI" – A journey of learning Python from scratch, documented step-by-step by a developer with 9 years of experience in web, backend, microservices, design patterns, and Azure. This repo explores Python basics to advanced AI concepts, tracking progress and insights for mastering Python and its AI applications
+# Python from Zero to AI - A Developer's Journey  
+This repository is a step-by-step journey of learning Python from scratch, tailored for a seasoned developer with 9 years of experience in web development, backend systems, microservices, and design patterns, as well as expertise in Azure Cloud. With a focus on building a solid foundation in Python, this project is dedicated to exploring its applications in artificial intelligence (AI). Follow along as I document my progress, insights, and practical examples, moving from Python basics to advanced concepts in AI development.
