@@ -33,7 +33,7 @@ else:
     else:
         print("Number is not between 5 and 47")
 
-
+# Basic Calculator Program
 operator = input("Enter operator: ")
 
 num1 = float(input("Enter first number: "))
@@ -52,3 +52,7 @@ elif operator == '/':
         print("Division by zero is not allowed.")
 else:    
     print("Invalid operator")
+
+
+# Nested if-else statement
+
