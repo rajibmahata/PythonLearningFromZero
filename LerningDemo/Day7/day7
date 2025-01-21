@@ -1,0 +1,45 @@
+
+
+try:
+    x = int(input("Enter a number: "))
+    print(f"You entered: {x}")
+except ValueError:
+    print("That's not a valid number!")
+
+except:
+    print("Something went wrong...")
+
+else:
+    print("Nothing went wrong!")
+
+
+try:
+    x = int(input("Enter a number: "))
+    result = 10 / x
+except ValueError:
+    print("Invalid input! Please enter a number.")
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+except MemoryError:
+    print("Cannot divide by zero!")
+
+
+
+try:
+    file = open("example.txt", "r")
+    data = file.read()
+except FileNotFoundError:
+    print("The file does not exist.")
+else:
+    print("File read successfully!")
+    print(data)
+finally:
+    print("Closing the program.")
+
+
+try:
+    age = int(input("Enter your age: "))
+    if age < 0:
+        raise ValueError("Age cannot be negative!")
+except ValueError as e:
+    print(f"Error: {e}")

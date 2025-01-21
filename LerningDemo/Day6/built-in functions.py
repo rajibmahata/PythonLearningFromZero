@@ -66,3 +66,27 @@ print(numbers.reverse())
 numbers=[1,2,3,4,5,6,7,8,9,10]
 print(all(numbers))
 
+#map() function 
+
+numbers=[1,2,3,4,5,6,7,8,9,10]
+print(list(map(lambda x:x*x,numbers)))
+
+
+# Example 1: Doubling numbers
+def double(x):
+    return x * 2
+
+nums = [1, 2, 3, 4]
+result = map(double, nums)
+print(list(result))  # Output: [2, 4, 6, 8]
+
+# Example 2: Using lambda
+nums = [1, 2, 3, 4]
+result = map(lambda x: x ** 2, nums)
+print(list(result))  # Output: [1, 4, 9, 16]
+
+# Example 3: Mapping over multiple iterables
+nums1 = [1, 2, 3]
+nums2 = [4, 5, 6]
+result = map(lambda x, y: x + y, nums1, nums2)
+print(list(result))  # Output: [5, 7, 9]
